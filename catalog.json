@@ -1,6 +1,6 @@
 {
   "catalogVersion": 1,
-  "generatedAt": "2026-10-11T14:46:20Z",
+  "generatedAt": "2026-10-11T14:50:20Z",
   "plugins": [
     {
       "id": "place-geocode",
@@ -19,7 +19,7 @@
           "artifacts": [
             {
               "target": "universal",
-              "url": "https://github.com/natureworkds-source/place-geocode-tool/releases/download/v0.3.0/place-geocode-0.3.0-universal.tfpkg",
+              "url": "https://github.com/natureworkds-source/toolforge-store/releases/download/store-place-geocode-0.3.0/place-geocode-0.3.0-universal.tfpkg",
               "sha256": "f9738e99ef8f19243e3ac9786cf4a343b776f1e2e2df7d083b2a1f64fb96a2d1",
               "size": 2057922
             }
