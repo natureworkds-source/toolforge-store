@@ -1,6 +1,6 @@
 {
   "catalogVersion": 1,
-  "generatedAt": "2026-10-11T14:50:20Z",
+  "generatedAt": "2026-10-12T02:51:14Z",
   "plugins": [
     {
       "id": "place-geocode",
@@ -8,10 +8,23 @@
       "publisher": "NatureWork",
       "summary": "多渠道地名/坐标检索、原生底图预览、收藏与导出（天地图/高德/百度/腾讯）。",
       "group": "地理编码",
-      "latestVersion": "0.3.0",
+      "latestVersion": "0.4.0",
       "source": "https://github.com/natureworkds-source/place-geocode-tool",
       "homepage": "https://github.com/natureworkds-source/place-geocode-tool",
       "versions": [
+        {
+          "version": "0.4.0",
+          "releasedAt": "2026-10-12T02:51:14Z",
+          "releaseNotes": "place-geocode v0.4.0 store package (private submission Issue #5)",
+          "artifacts": [
+            {
+              "target": "universal",
+              "url": "https://github.com/natureworkds-source/toolforge-store/releases/download/store-place-geocode-0.4.0/place-geocode-0.4.0-universal.tfpkg",
+              "sha256": "cd9a5891b54b84d18c4ac097e3bc6d121d89ac25cdf2b8eaca354a64a0fd54c7",
+              "size": 2057922
+            }
+          ]
+        },
         {
           "version": "0.3.0",
           "releasedAt": "2026-10-11T11:42:37Z",
