@@ -19,9 +19,9 @@
 2. （可选）在自有私有仓发 Release 仅作作者归档，**不要**把私有 URL 当作客户端或审核下载入口。
 3. 在本仓开 **Issue**（推荐）或 PR，提供：
    - `id`、`version`、`sha256`、`size`、源码 tag
-   - **直接附上 `.tfpkg`**（或短期可匿名下载的网盘/对象存储链接）
+   - 成果包：在 **GitHub 网页** Issue 中 Attach files 上传 `.tfpkg`（`gh issue comment --attach` 仅支持图片/视频，无法挂 `.tfpkg`）；或提供短期可匿名下载链接
    - 注明：「源码仓私有，请维护者镜像到本仓公开 Release 后再写入 catalog」
-4. 不要在 `catalog.json` 里填写私有 Release URL；公开永久 `url` 由维护者镜像后填写。
+4. 不要在 `catalog.json` 里填写私有 Release URL；公开永久 `url` 由维护者镜像后填写（客户端用 `store-<id>-<version>`，不是投稿临时链接）。
 
 ## 维护者（公开投稿）
 
